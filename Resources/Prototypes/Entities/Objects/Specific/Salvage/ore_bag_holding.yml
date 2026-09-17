@@ -6,9 +6,8 @@
   components:
   - type: ComponentToggler # LP edit start
     components:
-    - type: MagnetPickup 
+    - type: MagnetPickup
     range: 2 # LP edit end
-    Slotflags: Slotflags.BELT
   - type: Sprite
     sprite: Objects/Specific/Mining/ore_bag_holding.rsi
     state: icon
