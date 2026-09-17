@@ -244,10 +244,10 @@
   id: NuclearReactorNormal
   parent: [BaseNuclearReactor, NuclearReactorCrew]
 
-- type: entity
+- type: entity # LP edit start
   id: NuclearReactorEmpty
   parent: [BaseNuclearReactor, NuclearReactorCrew, ReactorPrefabEmpty]
-  suffix: "Empty"
+  suffix: "Empty" # LP edit end
 
 - type: entity
   id: NuclearReactorRandom

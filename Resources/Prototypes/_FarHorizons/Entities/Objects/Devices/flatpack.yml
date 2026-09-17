@@ -11,7 +11,7 @@
   - type: Flatpack
     entity: NuclearReactorEmpty
 
-- type: entity
+- type: entity # LP edit start
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: SmallNuclearReactorFlatpack
   name: Small Nuclear Reactor Flatpack
@@ -22,7 +22,7 @@
     layers:
     - state: large
   - type: Flatpack
-    entity: NuclearReactorSmallEmpty
+    entity: NuclearReactorSmallEmpty # LP edit end
 
 - type: entity
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
@@ -37,7 +37,7 @@
   - type: Flatpack
     entity: GasTurbineNormal
 
-- type: entity
+- type: entity # LP edit start
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: SmallGasTurbineFlatpack
   name: Small Gas Turbine Flatpack
@@ -48,4 +48,4 @@
     layers:
     - state: large
   - type: Flatpack
-    entity: GasTurbineSmall
+    entity: GasTurbineSmall # LP edit end
