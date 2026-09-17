@@ -443,6 +443,14 @@
         damage:
           types:
             Heat: 3
+      - !type:PopupMessage
+        type: Local
+        visualType: Large
+        messages: [ "slime-hurt-by-water-popup" ]
+        probability: 1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Slime ]
 
 - type: reagent
   id: Ice
