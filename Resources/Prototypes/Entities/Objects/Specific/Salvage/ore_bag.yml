@@ -14,6 +14,10 @@
     quickEquip: false
     slots:
     - belt
+  - type: ComponentToggler # LP edit start
+    components:
+    - type: MagnetPickup
+      range: 1.5 # LP edit end
   - type: Item
     size: Ginormous
   - type: Storage
@@ -39,10 +43,6 @@
       params:
         variation: 0.250
   - type: Appearance
-  - type: ComponentToggler
-    components:
-    - type: MagnetPickup
-    range: 1.5
   - type: GenericVisualizer
     visuals:
       enum.ToggleableVisuals.Enabled:
